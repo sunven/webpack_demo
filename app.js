@@ -52,7 +52,7 @@
 /***/ function(module, exports) {
 
 	module.exports = function() {
-	    document.write('hello webpack');
+	    document.write('hello webpack123');
 	};
 
 /***/ },
@@ -90,7 +90,7 @@
 
 
 	// module
-	exports.push([module.id, "body {\r\n    background-color: #ccc;\r\n}\r\n", ""]);
+	exports.push([module.id, "body {\r\n    background-color:#abc;\r\n}\r\n", ""]);
 
 	// exports
 

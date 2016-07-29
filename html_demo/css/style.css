@@ -1,0 +1,114 @@
+html,
+body,
+ul,
+li,
+dl,
+dd,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.iconul {
+    width: 100%;
+    font-size: 0;
+}
+
+.iconul .iconli {
+    height: 100px;
+    width: 20%;
+    /*background-color: #ccc;*/
+    display: inline-block;
+    font-size: 16px;
+    text-align: center;
+}
+
+.iconli p {
+    font-size: 14px;
+}
+
+
+/**/
+.thirdmenu-div{
+	margin:10px 0;
+	width:100%;
+	text-align:center;
+}
+
+.thirdmenu li {
+    display: inline-block;
+    background-color: #abc;
+    height: 100px;
+    width: 30%;
+    font-size: 22px;
+    text-align: center;
+    vertical-align: bottom;
+}
+
+
+/**/
+
+.p-gg {
+    height: 23px;
+    background: url(../images/gg_title.png) no-repeat;
+    background-size: 100%;
+    margin:0 10px;
+}
+
+
+/**/
+
+.newslist {
+    /*background-color: #abc*/
+    padding: 0 20px;
+}
+
+.newslist dd {
+    height: 80px;
+    width: 100%;
+    position: relative;
+    border-bottom: 1px solid #ccc;
+    margin:0px 0;
+}
+.newslist dd:last-child{
+	border: none;
+}
+
+.newslist .context {
+	height: 100%;
+    margin-right: 100px;
+    position: relative;
+}
+
+.newslist .context .title{
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.newslist .context .contextp{
+	margin:4px 0;
+	font-size: 14px;
+}
+.newslist .context .tag {
+    color: blue;
+    font-size: 12px;
+    position: absolute;
+    bottom: 6px;
+}
+
+.newslist .img {
+	height: 100%;
+    position: absolute;
+    width: 80px;
+    right: 0px;
+    text-align: center;
+}
+
+.newslist .img img{
+
+}
+/**/
+.footer-a{
+	display: inline-block;
+	width:25%;
+}
