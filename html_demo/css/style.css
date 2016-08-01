@@ -17,10 +17,11 @@ p {
 .iconul .iconli {
     height: 100px;
     width: 20%;
-    /*background-color: #ccc;*/
+    background-color: #ccc;
     display: inline-block;
     font-size: 16px;
     text-align: center;
+    vertical-align: middle;
 }
 
 .iconli p {
@@ -78,6 +79,8 @@ p {
 	height: 100%;
     margin-right: 100px;
     position: relative;
+    display: inline-block;
+    vertical-align: middle;
 }
 
 .newslist .context .title{
@@ -102,10 +105,12 @@ p {
     width: 80px;
     right: 0px;
     text-align: center;
+    display: inline-block;
+    vertical-align: middle;
 }
 
 .newslist .img img{
-
+    
 }
 /**/
 .footer-a{
